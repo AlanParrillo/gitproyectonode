@@ -44,7 +44,7 @@ app.delete('/productos/:id', (req, res) => {
     res.json(productoEliminado);
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 10000;
 app.listen(port, () => {
     console.log(`Servidor Express corriendo en el puerto ${port}`);
 });
